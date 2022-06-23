@@ -45,7 +45,50 @@ img:hover {
   box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
 }
+.dubious .column {
+  width: 100%;
+}
+.indifferent .column {
+  width: 50%;
+}
+.amiable .column:first-child {
+  width: 33%;
+}
+.amiable .column:first-child .small {
+  width: 98%;
+}
+.amiable .column:last-child {
+  width: 66%;
+}
+.amiable .column:last-child .medium {
+  width: 100%;
+}
 
+.indifferent .column:last-child {
+  width: 33%;
+}
+.indifferent .column:last-child .small {
+  width: 98%;
+}
+.indifferent .column:first-child {
+  width: 66%;
+}
+.indifferent .column:first-child .medium {
+  width: 100%;
+}
+
+.column {
+  display: inline-block;
+}
+.small {
+  width: 48%;
+}
+.medium {
+  width: 66%;
+}
+.large {
+  width: 100%;
+}
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
